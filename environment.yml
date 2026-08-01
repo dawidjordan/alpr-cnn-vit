@@ -1,0 +1,16 @@
+name: alpr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - cudatoolkit=11.8          # dostosuj do wersji CUDA na GPU
+  - pytorch>=2.1.0
+  - torchvision>=0.16.0
+
+  - pip:
+    - -r requirements.txt

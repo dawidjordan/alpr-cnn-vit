@@ -1,0 +1,71 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Raw datasets (too large for GitHub)
+data/
+
+# Model checkpoints (too large)
+outputs/
+models/yolov8n-lp.pt
+models/yolov8n.pt
+models/lp_dataset/
+models/lp_train/
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace cache
+.hf_cache/
+
+# torch cache
+.torch_cache/
+
+# Environment variables
+.env
+*.env
+
+# LaTeX build files
+*.aux
+*.log
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Weights & Biases
+wandb/
+
+# Model weights (anywhere in the project)
+**/*.pt
+**/*.pth
+**/*.bin
+**/*.onnx
+
+# experiments loader
+scripts/run_experiments.ps1
