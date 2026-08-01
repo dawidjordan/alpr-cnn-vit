@@ -1,10 +1,10 @@
 # CNN vs Vision Transformer in Automatic License Plate Recognition
 
-This project compares two types of deep learning models — a classic convolutional neural network (ResNet-50) and a newer Vision Transformer (ViT-Small) — to see which one works better for reading license plates and identifying vehicle characteristics from camera images.
+This project compares two types of deep learning models — a classic convolutional neural network (ResNet-50) and a newer Vision Transformer (ViT-Small) to check which one works better for reading license plates and identifying vehicle characteristics from camera images.
 
-## What does this project do?
+## What does this project include?
 
-Imagine a parking lot camera that needs to automatically identify every car that drives in. This system does exactly that — it looks at a photo of a vehicle and tries to:
+Imagine a parking lot camera that needs to automatically identify every car that drives in. This system does exactly that, it looks at a photo of a vehicle and tries to:
 
 1. **Find the license plate** in the image
 2. **Read the characters** on the plate (e.g. "WR 12345")
@@ -14,7 +14,7 @@ The key question this project answers is: **which type of neural network does th
 
 ## Why does this comparison matter?
 
-For years, convolutional neural networks (CNNs) have been the standard tool for image recognition tasks. In 2021, a new approach called Vision Transformer (ViT) was introduced, borrowed from natural language processing. ViT works very differently — instead of scanning an image with small filters, it splits the image into patches and looks at relationships between all of them at once.
+For years, convolutional neural networks (CNNs) have been the standard tool for image recognition tasks. In 2021, a new approach called Vision Transformer (ViT) was introduced, borrowed from natural language processing. ViT works very differently, instead of scanning an image with small filters, it splits the image into patches and looks at relationships between all of them at once.
 
 Both approaches have their advantages, and it is not obvious which one is better for real-world applications like license plate recognition. This project runs a series of experiments to find out.
 
@@ -91,4 +91,10 @@ python evaluation/plot_results.py
 
 ## License
 
-MIT License
+This project is licensed under the
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to share and adapt this work for non-commercial purposes,
+as long as you give appropriate credit to the original author.
+
+© 2025 Dawid Jordan
