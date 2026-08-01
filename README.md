@@ -50,6 +50,20 @@ The bottom line is that ViT-Small is the better choice when conditions are diffi
 | CompCars | ~31,000 car photos annotated with make and body type | Vehicle type & make classification |
 | VehicleColor (VCoR) | ~9,000 car photos in 15 color categories | Vehicle color classification |
 
+## Datasets
+
+| Dataset | Task | Link |
+|---------|------|------|
+| CCPD 2019 | License plate OCR | [GitHub](https://github.com/detectRecog/CCPD) |
+| CompCars | Vehicle type & make | [CUHK](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/) |
+| VehicleColor (VCoR) | Vehicle color | [Kaggle](https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset) |
+
+If you use these datasets in your work, please cite the original papers:
+
+- **CCPD**: Xu et al., *Towards End-to-End License Plate Detection and Recognition: A Large Dataset and Baseline*, ECCV 2018
+- **CompCars**: Yang et al., *A Large-Scale Car Dataset for Fine-Grained Categorization and Verification*, CVPR 2015  
+- **VehicleColor**: Kezebou et al., *Artificial Intelligence for Text-Based Vehicle Search, Recognition, and Continuous Localization in Traffic Videos*, AI 2021
+
 ## Project structure
 
 ```
